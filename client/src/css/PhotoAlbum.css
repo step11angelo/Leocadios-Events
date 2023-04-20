@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+.photo-album--header {
+  color: var(--dark-coffee);
+  font-size: 6rem;
+  font-family: "Great Vibes";
+  font-weight: 400;
+  text-align: center;
+  margin: 15rem 2rem 0 2rem;
+}
+.photo-album--container {
+  margin: 5rem 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.each-photo--container {
+  max-width: 40rem;
+  height: 25rem;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.each-photo--container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

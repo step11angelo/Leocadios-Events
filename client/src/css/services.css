@@ -1,0 +1,80 @@
+.article-center p {
+  font-family: lora;
+}
+
+.light-info {
+  background-color: transparent;
+  border: 5px dotted var(--light-color);
+}
+.light-info .info-header {
+  color: var(--dark-coffee);
+  font-weight: 700;
+}
+.light-info p {
+  color: var(--light-gray-color);
+}
+
+.packages--container {
+  color: white;
+  width: 96%;
+  margin: 5rem auto 10rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.package-card {
+  background-color: var(--dark-color);
+  max-width: 35rem;
+  border-radius: 1rem;
+  padding: 2.5rem 1.5rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.package-card li,
+.package-card h3 {
+  font-family: lora;
+}
+
+.package-name {
+  font-size: var(--h4-size);
+  font-family: lora;
+  text-align: center;
+  text-transform: uppercase;
+  border: 5px double var(--accent-color);
+  padding: 1rem 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.pax-count {
+  font-size: var(--h3-size);
+  font-weight: 500;
+  text-align: center;
+}
+.pax-count:nth-child(3) {
+  margin-bottom: 2rem;
+}
+
+.items-header {
+  color: var(--light-color);
+  font-size: var(--h3-size);
+  font-family: "Great Vibes";
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.package-item {
+  font-size: var(--p-size);
+  font-weight: 500;
+  line-height: 3rem;
+  list-style: disc;
+  margin: 0 2rem;
+}
+
+.package-item:hover {
+  border-bottom: none;
+}

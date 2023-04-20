@@ -1,0 +1,30 @@
+
+  .image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .error404 {
+    font-size: 4rem;
+  }
+  
+  .error {
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      height: auto;
+    }
+
+    .error404 {
+      font-size: 3rem;
+    }
+  
+    .error {
+      font-size: 1.5rem;
+    }
+  }
+  

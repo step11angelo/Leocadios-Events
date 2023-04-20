@@ -1,0 +1,79 @@
+.connect--section {
+  background-color: var(--light-color);
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.message {
+  text-align: center;
+}
+.connect--section h2 {
+  font-size: var(--h2-size);
+  font-family: lora;
+  margin-bottom: 1.5rem;
+}
+.white h2 {
+  color: var(--primary-color);
+  width: 80%;
+  text-align: center;
+}
+.connect--section p {
+  font-size: var(--p-size);
+  font-family: josefin Sans;
+  line-height: 2.5rem;
+  margin: 1rem 2rem;
+}
+
+.contact-form {
+  background-color: var(--dark-color);
+  width: 60rem;
+  padding: 3rem 2rem 2rem 2rem;
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: var(--primary-color);
+  width: 100%;
+  font-size: var(--h5-size);
+  font-family: "josefin Sans";
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 1.5rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--dark-coffee);
+}
+.name-col {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 1rem;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 2rem;
+}
+
+.contact-form .btn {
+  width: 18rem;
+}
+
+@media (max-width: 335px) {
+  .white h2 {
+    top: 14rem;
+  }
+}

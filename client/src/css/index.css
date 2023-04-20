@@ -1,0 +1,235 @@
+* {
+  font-size: 10px;
+  font-family: poppins, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--primary-color);
+
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+#root {
+  padding: 0;
+}
+
+:root {
+  --primary-color: #f8f8f8;
+  --accent-color: #e3b04b;
+  --light-color: #f1d6ab;
+  --dark-color: #0c0a00;
+  --dark-coffee: #131000;
+  --dark-red-color: rgb(32, 2, 2);
+  --light-gray-color: #616161;
+
+  --heading-font: 5.5rem;
+  --h2-size: 4rem;
+  --h3-size: 2.2rem;
+  --h4-size: 2rem;
+  --h5-size: 1.8rem;
+  --p-size: 1.6rem;
+}
+
+.btn {
+  font-size: var(--p-size);
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 1.3rem 1.8rem;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--accent-color);
+  color: var(--dark-color);
+  height: unset;
+  font-family: lora;
+  border: 2px solid var(--accent-color);
+  border-radius: 4rem;
+  margin-bottom: 3rem;
+
+  box-shadow: 5px 5px 34px -6px var(--accent-color);
+  -webkit-box-shadow: 5px 5px 35px -6px var(--accent-color);
+  -moz-box-shadow: 5px 5px 35px -6px var(--accent-color);
+
+  transition: all 0.5s ease;
+}
+
+.primary-btn:hover {
+  transform: scale(1.07);
+}
+
+.secondary-btn {
+  color: var(--dark-color);
+  font-family: lora;
+  border: 2px solid var(--dark-color);
+  margin-bottom: 3rem;
+
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  color: var(--primary-color);
+  background-color: black;
+}
+
+.logo-container {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+}
+/*?-----dark logo container */
+.dark {
+  background-color: #0c0a00;
+  margin: 2rem auto;
+}
+/*? logo container center */
+.center {
+  width: 24.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-container img {
+  height: 100%;
+  width: auto;
+  margin-top: 0.5rem;
+}
+.logo-container h3 {
+  color: var(--primary-color);
+  background-color: transparent;
+  font-size: var(--h3-size);
+  font-weight: 600;
+  font-family: lora;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  margin-left: 1rem;
+}
+.logo-container h3 span {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--accent-color);
+  font-size: var(--h3-size);
+  font-weight: 600;
+  font-family: lora;
+}
+a {
+  text-decoration: none;
+  background-color: white4;
+}
+.icon {
+  fill: var(--primary-color);
+  font-size: var(--h2-size);
+  margin-right: 1.5rem;
+}
+.socials-container {
+  display: flex;
+}
+.socials {
+  fill: var(--primary-color);
+  width: 100%;
+  border-top: 2px solid rgb(224, 218, 218);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem 0 2rem 0;
+  gap: 0.5rem;
+}
+.socials p {
+  color: var(--accent-color);
+  font-size: var(--p-size);
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.socials .icon {
+  fill: var(--primary-color);
+}
+.exit-btn {
+  background-color: transparent;
+  border: none;
+  margin-right: 1rem;
+  position: absolute;
+  top: 3rem;
+  right: 0.6rem;
+}
+.exit {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+/*!--------header--------  */
+.section--header {
+  color: var(--dark-color);
+  font-size: var(--h2-size);
+  text-align: center;
+  font-family: lora;
+  text-transform: capitalize;
+  margin: 10rem 1.5rem 0 1.5rem;
+  z-index: 100;
+}
+.section--sub-header {
+  color: var(--accent-color);
+  font-size: var(--h5-size);
+  text-align: center;
+  text-transform: capitalize;
+  font-family: lora;
+  font-style: italic;
+}
+
+.accent {
+  color: #e3b04b;
+}
+
+/*!----------page banner style------ */
+.banner {
+  width: 100%;
+  height: 35rem;
+
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .cover {
+  position: absolute;
+  top: 0;
+}
+.banner h2 {
+  max-width: 50rem;
+  color: var(--light-color);
+  font-size: var(--h2-size);
+  font-family: lora;
+  white-space: nowrap;
+  border-radius: 1rem;
+  padding: 3rem 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -15%);
+}
+
+.article-center {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-center p {
+  color: var(--light-gray-color);
+  width: 80%;
+  font-size: var(--p-size);
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 3.2rem;
+  margin: 3rem 2rem;
+}

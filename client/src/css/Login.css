@@ -1,0 +1,57 @@
+.login--background {
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    background-color: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login--heading {
+    font-size: 2.5rem;
+    font-family: "Josefin Sans" !important;
+    text-align: center;
+    margin: 0 2rem 2rem 2rem;
+}
+.login-form--container {
+    width: 100%;
+    padding: 1rem;
+}
+.login-form {
+    min-width: 25rem;
+    max-width: 40rem;
+    background-color: var(--dark-color);
+    border-radius: 1rem;
+    padding: 0 2rem 3rem 2rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-form .logo-container {
+    width: unset;
+}
+.login-form input {
+    background-color: var(--primary-color);
+    width: 100%;
+    font-size: var(--h5-size);
+    font-family: "josefin Sans";
+    border: 2px solid var(--primary-color);
+    border-radius: 0.7rem;
+    outline: none;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+.login-form input:focus {
+    border: 2px solid var(--accent-color);
+    /* box-shadow: 2px 3px 22px -6px var(--accent-color);
+    -webkit-box-shadow: 2px 3px 22px -6px var(--accent-color);
+    -moz-box-shadow: 2px 3px 22px -6px var(--accent-color); */
+}
+.login-form button {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
